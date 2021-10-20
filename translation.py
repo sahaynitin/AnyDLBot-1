@@ -28,22 +28,19 @@ I'am a url to telegram file or media uploader bot with permanent thumbnail suppo
 **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 **Server :** [Heroku](https://heroku.com)
 """
-    START_BUTTONS = InlineKeyboardMarkup(
-        [[
+    START_BUTTONS = [[
         InlineKeyboardButton('🤔 Help', callback_data='help'),
         InlineKeyboardButton('🤖 About', callback_data='about'),
         ],[
         InlineKeyboardButton('Close🔐', callback_data='close')
         ]]
     )
-    HELP_BUTTONS = InlineKeyboardMarkup(
-        [[
+    HELP_BUTTONS = [[
         InlineKeyboardButton('🤖 About', callback_data='about'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
     )
-    ABOUT_BUTTONS = InlineKeyboardMarkup(
-        [[
+    ABOUT_BUTTONS= [[
         InlineKeyboardButton('🏠 Home', callback_data='home'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
