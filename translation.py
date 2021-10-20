@@ -1,6 +1,6 @@
 class Translation(object):
     START_TEXT = """
-<b>Hello {}!!!
+<b>Hello {} !!!
 
 I'am a url to telegram file or media uploader bot with permanent thumbnail support.</b>
 
