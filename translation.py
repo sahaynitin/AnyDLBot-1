@@ -44,7 +44,6 @@ I'am a url to telegram file or media uploader bot with permanent thumbnail suppo
         InlineKeyboardButton('🏠 Home', callback_data='home'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
-    )
     RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.</b>"
     ABS_TEXT = " <b>Please Don't Be Selfish.</b>"
     UPGRADE_TEXT = "<b>This Bot Is Free To Use If U R My  Friend.</b>"
