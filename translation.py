@@ -24,37 +24,9 @@ URL | filename | username | password</b>"""
     NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On https://t.me/HxSupport"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID: <code>{}</code>
-Plan name: 75GB Per Month
-Expires on: 10/12/2021
---------"""
-    HELP_USER = """<b>There Are Multiple Things I Can Do:</b>\n\n <b>All Supported Video Formats of https://rg3.github.io/youtube-dl/supportedsites.html</b>
-
- <b>Upload as file from any HTTP link</b>
-
- <b>Convert To Streamable Video, any Telegram media.\nReply /converttovideo to Any Doc File</b>
-
- <b>ReName Telegram files, with custom thumbnail support.\nReply /rename To File</b>
-
- <b>Get High Speed Direct Download Link Of Any Telegram File.\nReply /getlink To File</b>
---------
-
-Send /me To Know Your Current Plan Details"""
     REPLY_TO_DOC_GET_LINK = "<b>Reply to a Telegram media to get High Speed Direct Download Link.</b>"
     REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.</b>"
     REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.</b>"
-    SOURCE = """<b>Hi!,</b>
-
-<b>○ My Name : <i>Hx AnyDLBot</i></b>
-<b>○ Creator : <a href='https://telegram.dog/Kirodewal'>This Person</a></b>
-<b>○ Credits : Everyone In This Journey</b>
-<b>○ Language : Python 3.9</b>
-<b>○ Library : Pyrogram Asyncio</b>
-<b>○ Cloned From : AnyDLBot [Spechide]</b>
-<b>○ Source Code :  <a href='https://t.me/HxSourceCode/2'>👉 Click Here</a></b>
-<b>○ Server : <a href='aws.amazon.com'>AWS Amazon</a></b>
-<b>○ Build Status : Beta v1</b>"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Reply to a Telegram Media To /rename With Custom Thumbnail Support.</b>"
     AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days."
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
